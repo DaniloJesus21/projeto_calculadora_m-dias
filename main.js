@@ -6,6 +6,15 @@ const notas = []
 const spanAprovado = '<span class="resultado aprovado">Aprovado</span>'
 const spanReprovado = '<span class="resultado reprovado">Reprovado</span>'
 const notaMinima = parseFloat(prompt("Digite qual é a média mínima para passar:"))
+const inputs = document.querySelectorAll('input');
+
+inputs.forEach(input => {
+  input.addEventListener('input', function() {
+    const textLength = this.placeholder.length;
+    const fontSize = parseFloat(getComputedStyle(this).fontSize);
+    this.style.width = `${textLength * (fontSize / 2)}px`; 
+  });
+});
 
 let linhas = ''
 
