@@ -119,7 +119,7 @@ footer small {
 
 @media only screen and (max-width: 600px) {
   .container{
-    padding: 7px;
+    padding: 10px;
   }
   header img {
     height: 30px; 
