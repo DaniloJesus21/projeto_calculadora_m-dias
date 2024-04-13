@@ -1,0 +1,1 @@
+O objetivo é com que o usuário possa calcular a média de suas atividades e a partir disso ele saberá se foi aprovado ou não. Com isso é necessário que num primeiro instante o usuário digite qual é a média mínima para passar e a partir disso escrever o nome da atividade e a nota correspondente, podendo adicionar quantas atividades quiser
