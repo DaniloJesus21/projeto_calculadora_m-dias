@@ -8,6 +8,8 @@
 body{
   background-color: rgb(231, 231, 231);
   padding-top: 100px;
+  min-height: 100vh;
+  position: relative;
 }
 
 header {
@@ -30,6 +32,7 @@ h1 {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 form{
@@ -94,4 +97,22 @@ table td img {
 
 .reprovado {
   background-color: red;
+}
+
+footer {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+}
+
+.footer-container p {
+  font-size: 13px;
+  text-align: center;
+}
+
+footer small {
+  font-size: 80%;
+  display: block;
 }
